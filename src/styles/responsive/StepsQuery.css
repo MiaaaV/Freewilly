@@ -36,7 +36,7 @@
 }
 
 
-@media screen and (min-width: 2560px) {
+@media screen and (min-width: 1920px) {
 
   .step-heading-div {
     margin: 0;
@@ -91,6 +91,23 @@
 
   .p-steps {
     text-align: initial;
+  }
+
+}
+
+@media screen and (min-width: 2560px) {
+
+  .instructions {
+    gap: 10rem;
+  }
+
+  .p-steps {
+    font-size: 150%;
+  }
+
+  .btn-app1 img,
+  .btn-app2 img {
+    width: 20vh;
   }
 
 }

@@ -3,9 +3,13 @@
   .info-row {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .info {
+    margin: 5rem 0;
+  }
 }
 
-@media screen and (min-width: 2560px) {
+@media screen and (min-width: 1920px) {
 
   .info-heading {
     text-align: center;
