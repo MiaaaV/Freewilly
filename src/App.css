@@ -1,38 +1,76 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', 'Arial', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+  background-color: #fff;
+  color: #555;
+  font-weight: 300;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1 {
+  color: white;
+  margin-bottom: 0.5rem;
+  font-size: 300%;
+  word-spacing: 0.4rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+h2 {
+  color: rgb(101, 211, 255);
+  font-size: 180%;
+  word-spacing: 0.2rem;
+}
+
+h1, h2, h4 {
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+}
+
+h3 {
+  font-size: 250%;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-size: 110%;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.back-to-top-button {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  background-color: #17c0eb;
+  font-size: 1rem;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  display: none;
+}
+
+#btt-btn {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.back-to-top-button.show {
+  display: block;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 767px) {
+
+  h1 {
+    margin-bottom: 0.5rem;
+    font-size: 250%;
   }
-  to {
-    transform: rotate(360deg);
+
+  h2 {
+    font-size: 150%;
   }
+
 }

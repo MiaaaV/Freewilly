@@ -1,0 +1,34 @@
+.images {
+  max-width: 100vw;
+}
+
+.images li {
+  display: block;
+  max-width: 100%;
+}
+
+figure {
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+figure img {
+  opacity: 0.8;
+  width: 100%;
+  height: auto;
+  transform: scale(1.15);
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+figure img:hover {
+  opacity: 1;
+  transform: scale(1.03);
+}
+
+@media screen and (min-width: 1920px) {
+  .images ul {
+    display: flex;
+  }
+}

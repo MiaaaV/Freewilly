@@ -1,0 +1,14 @@
+.row {
+  display: flex;
+  margin: 0 auto;
+}
+
+section {
+  margin: 3rem auto;
+}
+
+ion-icon {
+  font-size: 350%;
+  display: inline-block;
+  color: #17c0eb;
+}

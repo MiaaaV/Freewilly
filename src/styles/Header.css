@@ -1,0 +1,79 @@
+
+  ion-icon#ion-toggle {
+    color: #8de8ff  !important;
+  }
+
+  header {
+    background-image: linear-gradient(to bottom,  rgba(0, 0, 0, 0.596), rgba(0, 0, 0, 0.473)), url(../images/ocean.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+
+  .mobile-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    padding: 0 1rem;
+    top: 0.5rem;
+    right: 0.2rem;
+    z-index: 1;
+  }
+
+  .visible {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .sidenav {
+    width: 0;
+    height: 100%;
+    position: fixed;
+    background: rgba(2, 19, 23, 0.99);
+    background: linear-gradient(45deg, #073c46fa 0%, #0e748dfb 50%, #45cdeff1 100%);
+    overflow-x: hidden;
+    transition: 0.5s;
+    font-size: 150%;
+  }
+
+  .sidenav.open {
+    width: 100%;
+  }
+
+  .sidenav ul {
+    gap: 2rem;
+  }
+
+  .sidenav li{
+    text-decoration: none !important;
+    display: inline-block;
+    transition: 0.3s;
+  }
+
+  .sidenav li a:link,
+  .sidenav li a:visited{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none !important;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s;
+  }
+
+  .sidenav li a:hover,
+  .sidenav li a:active{
+    border-bottom: 2px solid #17c0eb;
+  }
+
+@media screen and (max-width: 768px) {
+  .row.desktop-nav {
+    display: none;
+  }
+}

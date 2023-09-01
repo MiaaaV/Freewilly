@@ -1,0 +1,96 @@
+@media screen and (min-width: 768px) {
+  .steps-heading {
+   font-size: 200%;
+  }
+
+  .step-heading-div {
+    margin: 1rem 0;
+  }
+
+  .steps-row {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+  }
+
+  .instructions {
+    gap: 2rem;
+  }
+
+  .p-steps {
+    font-size: 125%;
+  }
+
+  .btn-apps {
+    flex-direction: row;
+  }
+
+  .btn-app1 img {
+    margin-top: 0;
+  }
+
+  .btn-app1 img,
+  .btn-app2 img {
+    width: 10vh;
+  }
+}
+
+
+@media screen and (min-width: 1920px) {
+
+  .step-heading-div {
+    margin: 0;
+  }
+
+  .steps {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+  }
+
+  .steps-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 80vw;
+    align-items: center;
+  }
+
+  .grid-div {
+    display: flex;
+    justify-content: center
+  }
+
+  .steps-heading {
+    text-align: center;
+    margin: 3rem 0;
+  }
+
+  .app-screen {
+    max-width: 40%;
+  }
+
+  .step {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+    align-items: center;
+  }
+
+  .step div {
+    color: #17c0eb;
+    border: 2px solid #17c0eb;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    padding: 5px;
+    font-size: 150%;
+  }
+
+  .p-steps {
+    text-align: initial;
+  }
+
+}

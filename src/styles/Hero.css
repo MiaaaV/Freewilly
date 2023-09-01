@@ -1,0 +1,49 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+  padding-top: 4rem;
+  gap: 2rem;
+}
+
+.logo {
+  box-sizing: border-box;
+  max-width: 22vh;
+}
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  padding: 10px 30px;
+  font-weight: 350;
+  text-decoration: none;
+  border-radius: 200px;
+  color: white;
+  transition: background-color 0.3s, border 0.3s;
+}
+
+.main-btn:link,
+.main-btn:visited {
+    background-color: #17c0eb;
+    margin-right: 30px;
+}
+
+.secondary-btn:link,
+.secondary-btn:visited {
+    border: 1px solid #17c0eb;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: #0e829f;
+}
+
+.main-btn:hover,
+.main-btn:active {
+    background-color: #0e829f;
+}
+
+.secondary-btn:hover,
+.secondary-btn:active {
+    border: 1px solid #0e829f;
+}

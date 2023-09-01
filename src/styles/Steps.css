@@ -1,0 +1,75 @@
+.steps {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+
+.steps-row {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  max-width: 90vw;
+  align-items: center;
+}
+
+.grid-div {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.steps-heading {
+  text-align: center;
+  margin: 0 1rem;
+}
+
+.app-screen {
+  max-width: 40%;
+}
+
+.instructions {
+  display: flex;
+  flex-direction: column;
+}
+
+.steps-div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.step {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 1rem;
+  align-items: center;
+}
+
+.number {
+  color: #17c0eb;
+  border: 2px solid #17c0eb;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  padding: 5px;
+  font-size: 150%;
+}
+
+.btn-apps {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn-app1 img,
+.btn-app2 img {
+  width: 20vh;
+}
+
+.btn-app1 img {
+  margin-top: 20%;
+}

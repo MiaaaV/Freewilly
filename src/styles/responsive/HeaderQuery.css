@@ -1,0 +1,57 @@
+@media screen and (min-width: 768px){
+
+  .desktop-nav {
+    display: none;
+  }
+
+  ion-icon#ion-toggle {
+    font-size: 5rem;
+  }
+
+  .mobile-nav{
+    top: 1rem;
+    right: 0.5rem;
+  }
+
+  .sidenav {
+    font-size: 300%;
+  }
+}
+
+@media screen and ((min-width: 769px) and (max-width: 1920px)) {
+
+  .mobile-nav,
+  .sidenav {
+    display: none;
+  }
+
+  .justify-assist {
+    justify-content: flex-end;
+  }
+
+  .desktop-nav ul {
+    display: flex;
+    align-items: center;
+    padding-top: 3rem;
+    flex: 0 0 45%;
+    gap: 5rem;
+  }
+
+  .desktop-nav li {
+    display: inline-block;
+  }
+
+  .desktop-nav li a:link,
+  .desktop-nav li a:visited{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s;
+  }
+
+  .desktop-nav li a:hover,
+  .desktop-nav li a:active{
+    border-bottom: 2px solid #17c0eb;
+  }
+  }
