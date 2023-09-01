@@ -1,5 +1,6 @@
 {
   "name": "freewilly-git",
+  "homepage": "https://miav-portfolio.eu/dummysite",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
