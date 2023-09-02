@@ -19,7 +19,7 @@ function RouteHeader() {
   return (
     <>
       <header className="route-header">
-        <nav className="main-nav">
+        <nav className="main-nav route-nav">
           {/** Mobile nav */}
           <div className='mobile-nav route-mobile-nav'>
             <div>

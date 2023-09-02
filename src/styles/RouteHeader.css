@@ -1,3 +1,7 @@
+.mobile-nav {
+  display: none;
+}
+
 #route-logo {
   display: flex;
   max-width: 15vh;
@@ -20,4 +24,15 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
+}
+
+@media screen and (min-width: 769px) {
+  .mobile-nav {
+    display: none;
+  }
+
+  .route-row {
+    padding-top: 1rem;
+  }
+
 }
