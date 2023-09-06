@@ -2,6 +2,7 @@ import '../styles/Reusables.css';
 import '../styles/Hero.css';
 import '../styles/responsive/HeroQuery.css';
 import Logo from '../images/logo.png';
+import { NavLink } from 'react-router-dom';
 
 function Hero() {
   return (
@@ -16,8 +17,8 @@ function Hero() {
         <div>
           <h1>Free Willy - Free Yourself</h1>
           <h2 style={{ marginBottom: '1rem' }}>Help fight against whale poaching</h2>
-          <a className='btn main-btn' href="/">Donate</a>
-          <a className='btn secondary-btn' href="/">Read More</a>
+          <NavLink to="/" className='btn main-btn'>Donate</NavLink>
+          <NavLink to="/" className='btn secondary-btn'>Read More</NavLink>
         </div>
       </div>
     </>

@@ -4,6 +4,7 @@ import '../styles/responsive/StepsQuery.css';
 import phone from '../images/apple.png';
 import ios from '../images/appstore.png';
 import android from '../images/googleplay.png';
+import { NavLink } from 'react-router-dom';
 
 function Steps() {
   return (
@@ -38,12 +39,12 @@ function Steps() {
             </div>
 
             <div className='btn-apps'>
-              <a href="/" className='btn-app1'>
+              <NavLink to="/" className='btn-app1'>
                 <img src={ios} alt="Download on the App Store -logo" />
-              </a>
-              <a href="/" className='btn-app2'>
+              </NavLink>
+              <NavLink to="/" className='btn-app2'>
                 <img src={android} alt="Get it on Google Play -logo" />
-              </a>
+              </NavLink>
             </div>
 
           </div>
